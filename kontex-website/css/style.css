@@ -465,7 +465,7 @@ a:hover {
 .timeline::before {
     content: '';
     position: absolute;
-    left: 30px;
+    left: 26px;
     top: 0;
     bottom: 0;
     width: 2px;
@@ -476,16 +476,16 @@ a:hover {
     display: flex;
     gap: 30px;
     position: relative;
-    padding-left: 30px;
+    padding-left: 35px;
 }
 
 .timeline-item::before {
     content: '';
     position: absolute;
     left: 18px;
-    top: 8px;
-    width: 24px;
-    height: 24px;
+    top: 4px;
+    width: 10px;
+    height: 10px;
     background: var(--primary-green);
     border: 3px solid var(--bg-light);
     border-radius: 50%;
