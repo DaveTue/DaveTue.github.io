@@ -628,6 +628,16 @@ a:hover {
     color: var(--primary-green);
 }
 
+.organizer-avatar-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1em;
+    border: 3px solid var(--primary-green);
+}
+
 /* ============================================
    Footer
    ============================================ */
